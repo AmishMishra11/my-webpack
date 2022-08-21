@@ -10,6 +10,7 @@ const webpackConfig = {
 
   module: {
     rules: [
+      // js files
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
@@ -19,6 +20,11 @@ const webpackConfig = {
             presets: ["@babel/preset-env"],
           },
         },
+      },
+      // css files
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
