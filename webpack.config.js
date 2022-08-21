@@ -26,6 +26,12 @@ const webpackConfig = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
+
+      // images
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
     ],
   },
 
