@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("root").innerHTML=`\n<h1> Making my own Webpack </h1>\n${(({myName:e})=>`<h2> Welcome ${e} </h2>`)({myName:"Amish"})}\n`})();
