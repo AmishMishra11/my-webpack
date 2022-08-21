@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("root").innerHTML=`\n<h1> Making my own Webpack </h1>\n${(({myName:e})=>`<h2> Welcome ${e} </h2>`)({myName:"Amish"})}\n`})();
+!function(){"use strict";var n;document.getElementById("root").innerHTML="\n<h1> Making my own Webpack </h1>\n".concat((n={myName:"Amish"}.myName,"<h2> Welcome ".concat(n," </h2>")),"\n")}();
