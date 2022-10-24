@@ -57,7 +57,15 @@ const webpackConfig = {
     },
   },
 
+  devtool: "inline-source-map",
+  devServer: {
+    static: "./dist",
+    port: 9000,
+  },
+
   mode: "production",
+
+  ignoreWarnings: [(warning) => true],
 };
 
 module.exports = webpackConfig;
