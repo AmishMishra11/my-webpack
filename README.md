@@ -1,16 +1,17 @@
 # WebSack
 Start building your dream projects with this webpack starter kit using React!
 
-## Installing
-
-### 1. using degit 
+## Installing using degit
 
 In your commnad prompt run : 
 
-``` $ npx degit AmishMishra11/my-webpack <"your app name"> ```
+```
+$ npx degit AmishMishra11/my-webpack <"your app name">
+```
+
 This command will make a repo of webpack on your local machine. Open the project in your IDE and do:
-``` npm install -g webpack ```
-```bash
+
+```
 $ npm run build
 ```
 ###### You are now ready to start building your project! 😀
