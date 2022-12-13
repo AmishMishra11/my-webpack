@@ -57,11 +57,3 @@ Caches resources to improve more download over heads.
 
 Setting up dev server so we don't have to so a ```npm run build``` every time.
 
-## How does websack implement Caching?
-
-Websack uses [contenthash] to implement filename substititions . The hash associsted with every file changes only when the content inside the file changes , otherwise it remains same . A changed hash in turn changes the name of the file to a new one . On the client only those files are downloaded again whose name has been changed while others get `cached`.
-
-### In `webpack.config.js` you can see inside output object
-`filename: "[name].[contenthash].bundle.js"`
-
-This [contnethash] is responsible for implemeting caching in websack.
